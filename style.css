@@ -3,6 +3,9 @@ body{
   font-family: 'Kumbh Sans', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Outfit', sans-serif;
+  background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+  background-position: right 52vw bottom 35vh, left 49vw top 49vh;
+  background-repeat: no-repeat;
 }
 
 .card{
@@ -23,6 +26,7 @@ body{
   left: 100px;
   bottom: 55px;
   border-radius: 50%;
+  border: solid 5px white;
 }
 .Name{
   position: relative;
@@ -47,6 +51,7 @@ body{
 
 }
 .hori{
+  color: hsl(0, 0%, 59%);
   position: relative;
   right:100px;
 }
@@ -96,3 +101,6 @@ body{
   right: :  10px;
   bottom: 15px;
 }
+
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
