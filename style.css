@@ -1,11 +1,14 @@
 body{
   background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 .card{
   border-radius: 15px;
   background-color: white;
-  height: 400px;
+  height: 420px;
   width: 300px;
   margin: 200px auto;
 }
